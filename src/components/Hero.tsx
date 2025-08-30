@@ -5,6 +5,7 @@ import Image from "next/image";
 import { HeroCards } from "./HeroCards";
 import { HeroData } from "@/app/types/landing";
 
+
 const Hero = () => {
 
   const [mockHeroData, setMockHeroData] = useState<HeroData | null>(null);
@@ -26,6 +27,7 @@ const Hero = () => {
 
   return (
     <>
+    
       <main className="bg-accent-gradient grid gap-6 sm:grid-cols-2 sm:gap-8 items-center  px-10 md:px-18 pb-6">
        
 
